@@ -42,6 +42,6 @@ screenrecorder/
 
 
 and then build it: 
-npm run build
-The compiled output will be generated in the dist folder
+- npm run build
+- The compiled output will be generated in the dist folder
 
