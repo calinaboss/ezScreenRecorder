@@ -1,0 +1,31 @@
+{
+  "name": "screen",
+  "version": "1.0.0",
+  "description": "La mia app Electron",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-builder"
+  },
+  "keywords": [],
+  "author": "tironboss",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^42.5.1",
+    "electron-builder": "^26.15.3"
+  },
+  "build": {
+    "appId": "com.tironboss.screen",
+    "productName": "Screen",
+    "directories": {
+      "output": "dist"
+    },
+    "files": [
+      "**/*",
+      "!dist/**/*"
+    ],
+    "win": {
+      "target": "nsis"
+    }
+  }
+}
